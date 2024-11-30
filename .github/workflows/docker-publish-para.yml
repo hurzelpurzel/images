@@ -20,7 +20,7 @@ env:
   REGISTRY: ghcr.io
   FOLDER: para-cli
   # github.repository as <account>/<repo>
-  IMAGE_NAME: ${{ github.repository }}/${{ env.FOLDER }}
+  IMAGE_NAME: ${{ github.repository }}/para-cli
 
 
 jobs:
